@@ -1,0 +1,17 @@
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.DAL.deps.json
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.DAL.runtimeconfig.json
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.DAL.dll
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.DAL.pdb
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.Model.dll
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\bin\Debug\net6.0\KonjeticZavrsni.Model.pdb
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.csproj.AssemblyReference.cache
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.AssemblyInfoInputs.cache
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.AssemblyInfo.cs
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.csproj.CoreCompileInputs.cache
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.csproj.CopyComplete
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.dll
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\refint\KonjeticZavrsni.DAL.dll
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.pdb
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\KonjeticZavrsni.DAL.genruntimeconfig.cache
+D:\FAKS\3. GODINA\RAZVOJ WEB APLIKACIJA U ASP.NET MVC TEHNOLOGIJI\KonjeticZavrsni\KonjeticZavrsni.DAL\obj\Debug\net6.0\ref\KonjeticZavrsni.DAL.dll
