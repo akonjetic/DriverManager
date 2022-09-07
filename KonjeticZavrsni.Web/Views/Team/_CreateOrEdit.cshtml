@@ -1,0 +1,15 @@
+﻿@model KonjeticZavrsni.Model.Team
+
+<div class="form-group">
+	<label class="control-label">Ime tima</label>
+	<input asp-for="Name" class="form-control" />
+	<span asp-validation-for="Name" class="text-danger"></span>
+</div>
+<div class="form-group">
+	<label class="control-label">Budžet</label>
+	<input asp-for="Budget" class="form-control" />
+	<span asp-validation-for="Budget" class="text-danger"></span>
+</div>
+<div class="form-group">
+	<input type="submit" value="Spremi" class="btn btn-outline-success" />
+</div>

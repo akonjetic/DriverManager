@@ -1,0 +1,21 @@
+﻿@using KonjeticZavrsni.Web.Models
+
+@model TeamFilterModel
+
+<form action="@Url.Action("Index")" id="teamForm" method="post">
+	<div class="row">
+		<div class="col">
+			<input asp-for="Name" class="form-control" type="text" placeholder="Ime" />
+		</div>
+		<div class="col">
+			<input asp-for="Low" class="form-control" type="text" placeholder="Minimalni budžet (mil)" />
+		</div>
+		<div class="col">
+			<input asp-for="High" class="form-control" type="text" placeholder="Maksimalni budžet (mil)" />
+		</div>
+		<div class="col">
+			<button type="button" onclick="filterTeams()" class="btn btn-outline-info">Pretraga</button>
+			<a asp-action="Create" class="btn btn-success">Novi</a>
+		</div>
+	</div>
+</form>

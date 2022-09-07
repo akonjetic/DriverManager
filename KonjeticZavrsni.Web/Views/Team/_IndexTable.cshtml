@@ -1,0 +1,25 @@
+﻿@model List<Team>
+
+<table style="margin-top: 20px;" class="table table-condensed">
+	<thead>
+		<tr>
+			<th>Naziv tima</th>
+			<th>Budžet (kn)</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					<a asp-action="Details" asp-route-id="@item.Id">@item.Name</a>
+				</td>
+				<td>@item.Budget</td>
+				<td>
+				<a asp-action="Edit" asp-route-id="@item.Id">[edit]</a>
+			</td>
+			</tr>
+		}
+	</tbody>
+</table>

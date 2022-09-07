@@ -1,0 +1,35 @@
+﻿@model List<Driver>
+
+<table style="margin-top: 20px;" class="table table-condensed">
+	<thead>
+		<tr>
+			<th>Vozač</th>
+			<th>Tim</th>
+			<th>Najdraža staza</th>
+			<th>Država koju zastupa</th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					<a asp-action="Details" asp-route-id="@item.Id">@item.FullName</a>
+				</td>
+				<td>
+					<a asp-controller="Team" asp-action="Details" asp-route-id="@item.TeamId">@item.Team?.Name</a>
+				</td>
+				<td>@item.RaceTrack?.Name</td>
+				<td>@item.Country?.Name</td>
+				<td>
+				<a asp-action="Edit" asp-route-id="@item.Id">[edit]</a>
+			</td>
+			<td>
+				<a onclick="deleteDriver(@item.Id)">[obriši]</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

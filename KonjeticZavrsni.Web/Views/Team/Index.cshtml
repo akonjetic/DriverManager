@@ -1,0 +1,38 @@
+﻿@model List<Team>
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<body style="background-image: url('https://images6.alphacoders.com/121/1218784.jpg'); background-size: 100% 100%">
+<div style="background-color: white; padding: 5%">
+
+<h1>Popis F1 timova</h1>
+<div style="margin-top: 20px; margin-bottom: 10px;">
+	<partial name="_TeamFilter" model="new TeamFilterModel()" />
+</div>
+
+<div  id="tableContainer">
+<partial name="_IndexTable" model=@Model/>
+</div>
+</div>
+</body>
+
+@section Scripts{
+<script>
+    $(document).ready(filterTeams());
+
+    function filterTeams() {
+        var formData = $("#teamForm").serialize();
+        console.log("funkcija");
+        $.ajax({
+            url: "@Url.Action("IndexAjax", new TeamFilterModel())",
+            method: "POST",
+            data: formData,
+            success: function (html) {
+                $("#tableContainer").html(html);
+            }
+        });
+    }
+</script>
+}

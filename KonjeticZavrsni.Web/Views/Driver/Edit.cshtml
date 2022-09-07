@@ -1,0 +1,25 @@
+﻿
+@model KonjeticZavrsni.Model.Driver
+
+@{
+    ViewData["Title"] = "Uređivanje F1 vozača";
+}
+<body style="background-image: url('https://images6.alphacoders.com/121/1218784.jpg'); background-size: 100% 100%">
+<div style="background-color: white; padding: 5%">
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index">Popis F1 vozača</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Uređivanje F1 vozača</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Id" />
+            <partial name="_CreateOrEdit" />
+        </form>
+    </div>
+</div>
+</div>
+</body>
